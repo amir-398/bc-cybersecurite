@@ -61,6 +61,11 @@ body{
     cursor: pointer;
  }
 
+ .navbar .logo img{
+    width: 50px;
+    height: 50px;
+ }
+
 main .main-container {
     position: relative;
     display: flex;
@@ -155,6 +160,8 @@ main .bottom-container{
     margin: 0 auto;
 }
 
+/* card 1 */
+
 .other-games-container .cards .card-1 {
     background: #0a358c;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
@@ -216,23 +223,7 @@ main .bottom-container{
 }
 
 
-/* .card-1 .btn-bottom .btn {
-position: relative;
-width: 100px;
-height: 30px;
-background: rgba(115, 159, 217, 1);
-border-radius: 30px;    
-margin-top: 20px;
-margin-right: 2px;
-float: right;
-right: -650px;
-bottom: -100px;
-} */
-
-/* .card-1 .btn-bottom .btn a{
-text-decoration: none;
-color: #FFFFFF;
-} */
+/* card 2 */
 
 
 .other-games-container .cards .card-2 {
@@ -291,7 +282,9 @@ color: #FFFFFF;
    text-decoration: none;
    color: white;
 }
- /* footer */
+
+/* footer */
+
 footer {
     background-color: #0d45b2;
     padding: 2rem 0;
@@ -325,9 +318,9 @@ footer {
 .footer-logo img {
     width: 150px;
     height: 100px;
-}   
+}
 
 
-.hr-1{
+body hr {
     
 }

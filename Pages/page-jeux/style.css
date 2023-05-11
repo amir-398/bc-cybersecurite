@@ -50,6 +50,22 @@ body {
     height: 30px;
     margin-left: 10px;
 }
+
+.navbar .rs img:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+ }
+
+ .navbar .logo img:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+ }
+
+ .navbar .logo img{
+    width: 50px;
+    height: 50px;
+ }
+
 .main-container {
   position: relative;
   display: flex;
@@ -79,6 +95,7 @@ body {
     bottom: 19px;
     z-index: 999;
 }
+
 .main-container img {
     width: 15rem;
     margin-top: auto;
