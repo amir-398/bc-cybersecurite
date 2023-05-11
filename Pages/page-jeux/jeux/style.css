@@ -1,6 +1,6 @@
 @font-face {
     font-family: confortaa;
-    src: url("../../assets/fonts/Comfortaa-VariableFont_wght.ttf");
+    src: url("../../../../assets/fonts/Comfortaa-VariableFont_wght.ttf");
 }
 * , ::after , ::before {
     box-sizing: border-box;
@@ -54,6 +54,17 @@ body {
     transform: translateY(-2px);
     cursor: pointer;
  }
+
+ .navbar .logo img:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+ }
+
+ .navbar .logo img{
+    width: 50px;
+    height: 50px;
+ }
+
 .main-container {
     position: relative;
     display: flex;
@@ -188,6 +199,29 @@ height: 100%;
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.button-container .next-btn {
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .button-container .next-btn a  {
+    text-decoration: none;
+    color: black;
+ }
+ .button-container:hover {
+     transform: scale(1.1);
+ }
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 /* footer */
 footer {
