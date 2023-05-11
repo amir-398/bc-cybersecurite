@@ -1,0 +1,166 @@
+@font-face {
+    font-family: confortaa;
+    src: url("../../../../../assets/fonts/Comfortaa-VariableFont_wght.ttf");
+}
+* , ::after , ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin : 0;
+    font-family: confortaa ;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} 
+.navbar .logo h1 {
+    color: white;
+    font-size: 20px;
+}
+.navbar .menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.navbar .menu ul li {
+    list-style: none;
+    transition: all .3s;
+}
+.navbar .menu ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   
+}
+.navbar .menu ul li:hover {
+    transform: translateY(-6px);
+ }
+.navbar .rs img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.navbar img {
+    width: 50px;
+    height: 50px;
+}
+.navbar .rs img:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+ }
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    padding-top: 3rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #042940), url("../../../../../assets/img/image-page-accueil.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+    gap: 3rem;
+}
+.main-container h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.main-container button {
+    background-color: #00273E;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 19px;
+    z-index: 999;
+    cursor: pointer;
+}
+.main-container button a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main-container img {
+    width: 15rem;
+    margin-top: auto;
+}
+.bottom-container {
+    background: linear-gradient(180deg, rgba(4,41,64,1) 0%, rgba(13,69,178,1) 100%);
+    height: fit-content;
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* card */
+.other-games-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0b3487;
+    border-radius: 10px;
+    position: relative;
+}
+.other-games-container img {
+    width: 30rem;
+    height: 60rem;
+    position: absolute;
+    top: -15.5rem;
+    right: 0rem;
+}
+.other-games-container p {
+    color: white;
+    width: 30rem;
+    font-size: 20px;
+    padding: 3rem 0rem 3rem 5rem;
+}
+/* footer */
+footer {
+    background-color: #0d45b2;
+    padding: 2rem 0;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem 0;
+}
+
+.footer-container div h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-container div ul li {
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-container div ul li a {
+   text-decoration: none;
+   color: #DFF1FF;
+   
+}
+.footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img {
+    width: 150px;
+    height: 100px;
+}

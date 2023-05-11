@@ -23,6 +23,10 @@ body {
     align-items: center;
     gap: 5px;
 } 
+.navbar .logo img{
+    width: 50px;
+    height: 50px;
+ }
 .navbar .logo h1 {
     color: white;
     font-size: 20px;
@@ -70,28 +74,34 @@ body {
     color: white;
     font-size: 4rem;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 .main-container button {
-    background-color: #00273E;
-    border-radius: 20px;
+    background-color: #063550;
+    -webkit-box-shadow: 5px 5px 15px -4px #000000; 
+    box-shadow: 5px 5px 15px -4px #000000;
+    border-radius: 15px;
     color: white;
-    padding: 15px 30px;
+    padding: 20px 40px;
     font-size: 15px;
     font-weight: bold;
     position: absolute;
-    bottom: 19px;
-    z-index: 999;
+    bottom: 28px;
+    z-index: 9999;
     cursor: pointer;
+    border: none;
 }
 .main-container button a {
+    position: relative;
     color: white;
     text-decoration: none;
     cursor: pointer;
+    z-index: 9999;
+    font-size: 20px;
 }
 
 .main-container img {
-    width: 15rem;
+    width: 20rem;
     margin-top: auto;
 }
 .bottom-container {
@@ -108,7 +118,7 @@ body {
     display: inline-block;
     color: white;
     font-size: 2rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .other-games-container .dot {
     display: inline-block;
