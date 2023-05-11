@@ -290,7 +290,7 @@ main .bottom-container{
  /* footer */
 footer {
     background-color: #0d45b2;
-    padding: 2rem 0;
+    padding: 2rem 2.5rem;
 }
 .footer-container {
     display: flex;

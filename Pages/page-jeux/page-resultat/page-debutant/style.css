@@ -117,10 +117,10 @@ body {
     position: relative;
 }
 .other-games-container img {
-    width: 30rem;
-    height: 70rem;
+    width: 20rem;
+    height: 60rem;
     position: absolute;
-    top: -24.3rem;
+    top: -16.7rem;
     right: 0rem;
 }
 .other-games-container p {
